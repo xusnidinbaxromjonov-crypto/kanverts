@@ -78,7 +78,7 @@ body {
 }
 
 .intro-text {
-    font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', 'Cormorant Garamond', 'Montserrat', serif;
     font-size: 2.2rem;
     margin-bottom: 2rem;
     font-weight: 300;
@@ -203,25 +203,25 @@ body {
 }
 
 .letter-top {
-    font-family: 'Great Vibes', cursive;
-    font-size: 26px;
+    font-family: 'Marck Script', 'Great Vibes', 'Caveat', cursive;
+    font-size: 28px;
     color: #4a4540;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     text-align: center;
     line-height: 1.4;
 }
 
 .letter-body {
-    font-family: 'Cinzel', serif;
-    font-size: 12px;
-    line-height: 1.5;
+    font-family: 'Cormorant Garamond', 'Cinzel', Georgia, serif;
+    font-size: 15px;
+    line-height: 1.6;
     color: #2a2a2a;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .letter-body p {
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 .letter-body p:last-child {
@@ -239,8 +239,8 @@ body {
 }
 
 @media (max-width: 600px) {
-    .letter-top { font-size: 20px; margin-bottom: 12px; }
-    .letter-body { font-size: 10.5px; margin-bottom: 15px; line-height: 1.45; }
+    .letter-top { font-size: 22px; margin-bottom: 12px; }
+    .letter-body { font-size: 13.5px; margin-bottom: 12px; line-height: 1.5; }
     .letter-content { padding: 25px 15px 80px 15px; }
     .letter { min-height: 400px; }
 }
@@ -330,10 +330,14 @@ body {
 
 .song-title {
     font-size: 0.65rem;
-    letter-spacing: 3px;
-    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.85);
     font-weight: 400;
     text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 175px;
 }
 
 .waveform {
@@ -410,14 +414,14 @@ body {
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Great+Vibes&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600&family=Cinzel:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Great+Vibes&family=Marck+Script&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div id="particles-container"></div>
     
     <!-- Musiqa manbasi ulangan -->
-    <audio id="bg-music" src="360819833_1.mp3" loop preload="auto"></audio>
+    <audio id="bg-music" src="Moayad Aljabal - Floating in Reverie.mp3" loop preload="auto"></audio>
     <audio id="open-sound" src="https://cdn.pixabay.com/download/audio/2021/08/04/audio_3d1ffccde1.mp3?filename=paper-rustle-81427.mp3" preload="auto"></audio>
 
     <div class="scene">
@@ -434,34 +438,19 @@ body {
                     <div class="letter">
                         <div class="letter-content">
                             <div class="letter-top">
-                                "Senga bir gapni..."
+                                "Кечир мени..."
                             </div>
                             <div class="letter-body">
-                                <p>Senga bir gapni anchadan beri aytmoqchi edim. Lekin qanday boshlashni bilmadim. Oddiygina yozib qo‘ysam, balki bu gapning men uchun qanchalik muhimligini tushuntirib berolmasdim. Shuning uchun o‘zimcha boshqacharoq aytishni xohladim.</p>
-                                <p>Haligi men senga “bir qizni yaxshi ko‘raman” degandim-ku… “3–4 yildan beri aytolmeman”, deb aytgandim. Aslida esa men bu gapni aytayotganimda, o‘sha qizning o‘zi bilan gaplashib turgandim.</p>
-                                <p><strong style="color:#3d1428; font-weight:600;">O‘sha qiz — sensan.</strong></p>
-                                <p>Balki hozir buni o‘qib, “nega boshidanoq aytmagan ekan?” deb o‘ylarsan. Rostini aytsam, aytishga qo‘rqdim. Chunki sening menga bo‘lgan munosabating qandayligini bilmasdim. Men esa bu gapni aytib, seni noqulay ahvolga solib qo‘yishni xohlamadim.</p>
-                                <p>Kecha sen bilan gaplashganimizdan keyin yana bir narsani tushundim: ba’zi insonlar bilan gaplashish oddiy suhbat bo‘lib qolmaydi. Ularning bitta gapi, bitta hazili yoki oddiygina “yaxshi dam oling” degan gapi ham odamning xayolida qolib ketishi mumkin.</p>
-                                <p>Sening gaplaring ham menda shunaqa qolib ketyapti.</p>
-                                <p>Sen “stikerizni chopaman” desam, “maniyam chopmesmi, ish qil” deb hazillashganing ham esimda. Balki sen uchun bu oddiy gapdir. Lekin men uchun shunaqa kichkina narsalar ham yoqimli.</p>
-                                <p>Men seni faqat tashqi ko‘rinishing uchun yaxshi ko‘rmayman. Sen bilan gaplashganimda o‘zimni qanday his qilishim menga ko‘proq yoqadi.</p>
-                                <p>Ba’zan senga yozgim keladi, lekin nima yozishni bilmay qolaman. Ba’zan yozgan xabaringni yana bir marta o‘qib qo‘yaman. Ba’zan esa shunchaki sen bilan gaplashayotganimning o‘zi yetarli bo‘lib qoladi.</p>
-                                <p>Balki bularning hammasini aytishim shart emasdir. Lekin men bu gaplarni ichimda olib yurishni ham xohlamadim.</p>
-                                <p><strong style="font-weight:600; font-size:1.2em; color:#3d1428;">Men seni juda qattiq yaxshi ko‘raman.</strong></p>
-                                <p>Bu gapni shunchaki chiroyli ko‘rinsin deb yozmayapman. Men uchun bu jiddiy gap. Lekin sendan hozir darrov qandaydir javob kutmayman. “Men ham” deyishingni ham majburan xohlamayman.</p>
-                                <p>Agar sening hislaring boshqacha bo‘lsa, buni ham hurmat qilaman. Chunki men seni yaxshi ko‘rganim uchun, sening hislaringni ham hurmat qilishim kerak.</p>
-                                <p>Men shunchaki bir narsani bilishingni xohladim:</p>
-                                <p>Hayotimda bir qiz bor. U bilan gaplashganimda kayfiyatim o‘zgaradi. Uning xabari kelganda telefonimga qaragim keladi. U bilan gaplashgandan keyin suhbat tugagan bo‘lsa ham, gaplari xayolimda qoladi.</p>
-                                <p><strong style="color:#3d1428; font-weight:600;">Va o‘sha qiz — sensan.</strong></p>
-                                <p>Shuning uchun bu oddiy xat emas. Bu men senga o‘zim aytishga jur’at qilolmagan gaplarim. Endi esa sen bilasan.</p>
-                                <p>Men bu xatni yozib bo‘ldim. Qolganini esa vaqt ko‘rsatadi.</p>
-                                <p>Faqat bitta narsani bil: Seni yaxshi ko‘rishim — men uchun uyat yoki yashiradigan narsa emas. Men shunchaki nihoyat senga aytishga jur’at qildim.</p>
+                                <p>Қара, сенга бир нарсаларни айтмоқчиман. Ўша куни сен ҳазил қилдинг, мен эса ҳазилингни кўтара олмай, хафа бўлиб кетдим ва сенинг ҳам хафа бўлишингга сабабчи бўлдим. Бунинг учун сендан чин дилдан кечирим сўрайман. Балки ўша пайтда ҳиссиётга берилиб кетгандирман, лекин аслида сен билан бундай ҳолатга боришни истамагандим. Бир ҳафтадан бери гаплашмаётганимиз менга ҳам осон бўлмади. Сен билан гаплашишга, ҳолингни сўрашга ўрганиб қолган эканман. Ҳозир эса орамиздаги шу совуқчиликни ўйлаб, ўша куни бошқачароқ йўл тутишим кераклигини тушуняпман.</p>
+                                <p>Мен сени хафа қилишни ҳам, сендан узоқлашишни ҳам истамайман. Сен мен учун қадрлисан, шунинг учун орамиздаги тушунмовчиликни шунчаки ташлаб қўйгим келмаяпти. Балки сен ҳам мендан қаттиқ хафа бўлгандирсан, буни тушунаман. Мен ўзимни оқламоқчи эмасман, фақат хатомни тушуниб турганимни билишингни хоҳлайман. Ҳар доим ҳам тўғри иш қилолмаслигим мумкин, лекин хатомни тан олиб, кечирим сўрашни биламан.</p>
+                                <p>Кел, шу бўлган нарсани ортимизда қолдирайлик. Мен сен билан яна аввалгидек гаплашишни, бир-биримизни тушунишни ва хурсанд бўлиб юришимизни хоҳлайман. Сен билан гаплашмай юришдан кўра, ҳаммасини очиқчасига гаплашиб олишни афзал кўраман. Агар сенинг ҳам менга айтадиган гапларинг бўлса, бемалол айт, сени эшитишга тайёрман. Мен учун сенинг хафа бўлиб юришинг эмас, кўнглинг хотиржам бўлиши муҳим.</p>
+                                <p>Билмадим, бу гапларимни қандай қабул қиласан, лекин буларнинг ҳаммасини чин дилдан ёзяпман. Сендан кечирим сўрайман ва орамиздаги муносабат яна яхши бўлишини истайман. Мен сен билан уришиб ёки аразлашиб юришни хоҳламайман. Сени йўқотишни эмас, сени тушунишни ва сен билан яхши бўлишни хоҳлайман.</p>
+                                <p><strong style="color:#5c203d; font-weight:600;">Илтимос, мени кечир. Сени хафа қилганим учун афсусдаман.</strong></p>
+                                <p><strong style="font-weight:600; font-size:1.15em; color:#4a1930;">Сен мен учун жуда қадрлисан. Сени яхши кўраман ❤️</strong></p>
                             </div>
                             <div class="letter-bottom">
-                              
+                                <button class="btn-reset">Қайтариш</button>
                             </div>
-                            
-                            
                         </div>
                     </div>
                 </div>
@@ -481,7 +470,7 @@ body {
 
     <div class="music-player">
         <div class="player-info">
-            <div class="song-title">WILDFOREVER</div>
+            <div class="song-title" title="Moayad Aljabal - Floating in Reverie">Floating in Reverie</div>
             <div class="waveform">
                 <span></span><span></span><span></span><span></span><span></span>
             </div>
@@ -581,12 +570,14 @@ btnOpen.addEventListener('click', () => {
     tl.play();
 });
 
-btnReset.addEventListener('click', () => {
-    if(!isOpen) return;
-    isOpen = false;
-    
-    tl.reverse();
-});
+if (btnReset) {
+    btnReset.addEventListener('click', () => {
+        if(!isOpen) return;
+        isOpen = false;
+        
+        tl.reverse();
+    });
+}
 
 // Music Player Logic
 const btnPlay = document.querySelector('.btn-play');
